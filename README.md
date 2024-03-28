@@ -1,4 +1,4 @@
-# WindAndKite_PageBuilderCoreWebVitals
+# ![image logo](./docs/favicon.svg) WindAndKite_PageBuilderCoreWebVitals
 
 A Magento 2 Module introducing additional attributes to improve PageBuilder Elements CWV
 
@@ -15,19 +15,18 @@ control to the admin users.
     - Gives admin users the ability to set a static Height and Width Value for Desktop and mobile image independently
 
 ## Installation
+
+The package is available via packagist for easy installation via composer
+
 Install via composer:
 
-```
-composer config repositories.wind-and-kite composer https://wind-and-kite.repo.repman.io
-composer config --auth http-basic.wind-and-kite.repo.repman.io token <project_token>
+```BASH
 composer require windandkite/module-page-builder-core-web-vitals
 ```
 
-To create a new project token please login to Repman, select the correct organisation, navigate to the tokens area and
-generate the token with an appropriate label.
-
-Project specific tokens are used in this manner so that access to wind and kite repositories can be revoked if the need
-arises. Never use the same token on multiple projects.
+```BASH
+bin/magento module:enable WindAndKite_PageBuilderCoreWebVitals
+```
 
 ## Setup
 This module requires no setup configuration.
