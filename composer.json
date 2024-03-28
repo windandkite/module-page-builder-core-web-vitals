@@ -1,0 +1,24 @@
+{
+    "name": "windandkite/module-page-builder-core-web-vitals",
+    "description": "A Magento 2 Module introducing additional attributes to improve PageBuilder Elements CWV",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "WindAndKite",
+            "email": "sales@windandkite.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "magento/module-page-builder": "^2.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "WindAndKite\\PageBuilderCoreWebVitals\\": ""
+        }
+    }
+}
